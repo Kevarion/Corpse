@@ -1,0 +1,6 @@
+name: Corpse
+version: '${project.version}'
+main: net.kevarion.corpse.Corpse
+api-version: '1.17'
+authors: [Kevarion]
+description: A system where when you die, it makes a cool corpse of your character.
