@@ -28,6 +28,7 @@ public final class Corpse extends JavaPlugin implements Listener {
         if (event.getEntity() instanceof Player) {
             if (event.getFinalDamage() <= ((Player) event.getEntity()).getHealthScale()) {
                 Player player = (Player) event.getEntity();
+                CorpseEntity.execute(player);
                 event.getEntity().getWorld().dropItemNaturally(event.getEntity().getLocation(), getRespawnItem(player));
 
                 player.setGameMode(GameMode.SPECTATOR);
