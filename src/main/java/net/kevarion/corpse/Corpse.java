@@ -1,6 +1,5 @@
 package net.kevarion.corpse;
 
-import net.minecraft.server.network.PlayerConnection;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
